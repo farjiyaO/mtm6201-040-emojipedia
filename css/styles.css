@@ -15,7 +15,7 @@ body {
     /* layout the content of the emoji*/
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:space-between;
 
     border: 1px solid #222;
     border-radius: 8px;
@@ -26,7 +26,9 @@ body {
 .emoji span {
     order: -1;
 }
-
+.emoji a{
+    order: 1;
+}
 .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
